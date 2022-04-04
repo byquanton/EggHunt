@@ -1,0 +1,5 @@
+actionbar: "Gesammelte Eier: <count>"
+foundHead: "<green> Ei gefunden!"
+leaderboard:
+  online: "<bold><c:#008000>Online: </c></bold> <c:#00FF00><online></c>"
+
