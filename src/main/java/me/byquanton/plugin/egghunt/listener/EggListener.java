@@ -32,7 +32,8 @@ public class EggListener implements Listener {
             plugin.scoreUtil.addEgg(player, event.getClickedBlock().getLocation());
             plugin.leaderboard.setScoreBoard(player, plugin.scoreUtil.getEggs(player).size());
             player.sendMessage(plugin.messageUtil.getMessage("foundHead"));
-          }
+          } else {
+            player.sendMessage(plugin.messageUtil.getMessage("alreadyFound"));
         }
       }
     }
